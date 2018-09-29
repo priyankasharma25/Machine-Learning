@@ -13,7 +13,7 @@ import pandas as pd
 
 # Importing the dataset
 dataset = pd.read_csv('Salary_Data.csv')
-#removing the salary column to only pic the independent variable - years of experience
+#removing the salary column to only pick the independent variable - years of experience
 X = dataset.iloc[:, :-1].values 
 #pick the dependent variable - Salary
 y = dataset.iloc[:, 1].values
